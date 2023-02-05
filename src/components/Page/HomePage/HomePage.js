@@ -8,7 +8,6 @@ export const HomePage = () => {
     const [userId, setUserId] = useState('');
 
     const openModal = (id) => {
-        console.log(id);
        setUserId(id)
     }
     const closeModal = () => {
@@ -17,7 +16,7 @@ export const HomePage = () => {
     
     return (
       <>
-        {/* {userId && <Modal onClose={closeModal} id={userId} />} */}
+        {userId && <Modal onClose={closeModal} id={userId} />}
         <div>
           <table>
             <thead>
@@ -25,7 +24,6 @@ export const HomePage = () => {
                 <th>Number</th>
                 <th>Name</th>
                 <th>Age</th>
-                <th>Status</th>
                 <th>Option</th>
               </tr>
             </thead>
@@ -36,7 +34,6 @@ export const HomePage = () => {
                     <td>{idx + 1}</td>
                     <td>{user.name}</td>
                     <td>{user.age}</td>
-                    <td>'success'</td>
                     <td>
                       <button type="button" onClick={() => openModal(user.id)}>
                         delete
