@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Blended_Lesson_3/static/css/main.7acaea2f.css",
-    "main.js": "/Blended_Lesson_3/static/js/main.07d3183d.js",
+    "main.js": "/Blended_Lesson_3/static/js/main.c51bc8c9.js",
     "index.html": "/Blended_Lesson_3/index.html",
     "main.7acaea2f.css.map": "/Blended_Lesson_3/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Blended_Lesson_3/static/js/main.07d3183d.js.map"
+    "main.c51bc8c9.js.map": "/Blended_Lesson_3/static/js/main.c51bc8c9.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.c51bc8c9.js"
   ]
 }
