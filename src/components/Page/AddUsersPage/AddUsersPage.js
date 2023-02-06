@@ -56,7 +56,7 @@ export const AddUsersPage = () => {
             <input
               name="age"
               type="number"
-              placeholder="age...0"
+              placeholder="...age"
               onChange={handelChange}
               value={age}
             />
